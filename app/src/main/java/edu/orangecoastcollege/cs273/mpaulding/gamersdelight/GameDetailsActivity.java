@@ -15,6 +15,8 @@ public class GameDetailsActivity extends AppCompatActivity {
         // TODO:  this layout, including the TextViews, RatingBar and ImageView with the Game details.
 
         Intent intent = getIntent();
+        intent.getStringExtra("Name");
+
 
 
     }
