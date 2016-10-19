@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="viewGameDetails"
+    android:clickable="true"
+    android:id="@+id/gameListLinearLayout">
+
+    <ImageView
+        android:id="@+id/gameListImageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="4dp"
+        android:src="@mipmap/ic_launcher">
+    </ImageView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/gameListNameTextView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gameListDescriptionTextView" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gameListRatingBar"
+            android:numStars="@integer/max_num_stars"
+            android:rating="0"
+            android:stepSize=".5"
+            android:isIndicator="true"
+            style="@style/Widget.AppCompat.RatingBar.Small" />
+    </LinearLayout>
+
+
+</LinearLayout>

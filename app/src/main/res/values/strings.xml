@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gamers Delight</string>
+
+    <string name="add">Add Game</string>
+    <string name="name">Enter name of the game</string>
+    <string name="delete">Clear all Games</string>
+    <string name="desc">Description</string>
+    <string name="description">Enter game description</string>
+
+</resources>
